@@ -14,6 +14,7 @@
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg">
         <div class="container">
             <div class="content w-100 d-flex align-items-center justify-content-between">
@@ -36,6 +37,308 @@
             </div>
         </div>
     </nav>
+
+    <div class="container">
+        <!-- Carousel -->
+        <div class="carousel my-4">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="frontend/images/promo1.webp" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="frontend/images/promo2.webp" class="d-block w-100 img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="frontend/images/promo3.webp" class="d-block w-100 img-fluid" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+
+        <!-- Search Box -->
+        <section id="search-box">
+            <div class="card border-light">
+                <div class="card-body p-0">
+                    <div class="menu">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="welcome py-4 px-5">
+                                    <h1>Hai, user</h1>
+                                    <h1>Mau rental apa nich ?</h1>    
+                                </div>
+                            </div>
+    
+                            <div class="col-lg-6">
+                                <div class="row d-flex justify-content-end align-items-end px-5">
+                                    <div class="col-3 text-center">
+                                        <img src="frontend/images/car_illustration.png" alt="" width="80px">
+                                        <h3>Mobil</h3>
+                                    </div>
+    
+                                    <div class="col-3 text-center">
+                                        <img src="frontend/images/motor_illustration.png" alt="" width="78px">
+                                        <h3>Motor</h3>
+                                    </div>
+    
+                                    <div class="col-3 text-center">
+                                        <img src="frontend/images/bicycle_illustration.png" alt="" width="76px">
+                                        <h3>Sepeda</h3>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>    
+                    </div>
+                    
+                    <div class="padding mx-5 px-5 my-4">
+                        <div class="input-search mx-5 px-5">
+    
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <p>Lokasi Rental</p>
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                              </svg>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="Jakarta" aria-label="Jakarta" aria-describedby="addon-wrapping">
+                                    </div>        
+                                </div>
+                            </div>
+    
+                            <div class="row mb-4">
+                                <div class="col-8">
+                                    <p>Tanggal Mulai Rental</p>
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar4-week" viewBox="0 0 16 16">
+                                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+                                                <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                              </svg>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="20 Maret 2022" aria-label="20 Maret 2022" aria-describedby="addon-wrapping">
+                                    </div>            
+                                </div>
+    
+                                <div class="col-4">
+                                    <p>Waktu Mulai</p>
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                              </svg>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="09.00" aria-label="09.00" aria-describedby="addon-wrapping">
+                                    </div>            
+                                </div>
+                            </div>
+    
+                            <div class="row mb-4">
+                                <div class="col-8">
+                                    <p>Tanggal Mulai Rental</p>
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-calendar4-week" viewBox="0 0 16 16">
+                                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM2 2a1 1 0 0 0-1 1v1h14V3a1 1 0 0 0-1-1H2zm13 3H1v9a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V5z"/>
+                                                <path d="M11 7.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-2 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z"/>
+                                              </svg>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="20 Maret 2022" aria-label="20 Maret 2022" aria-describedby="addon-wrapping">
+                                    </div>            
+                                </div>
+    
+                                <div class="col-4">
+                                    <p>Waktu Mulai</p>
+                                    <div class="input-group flex-nowrap">
+                                        <span class="input-group-text" id="addon-wrapping">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                                <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                              </svg>
+                                        </span>
+                                        <input type="text" class="form-control" placeholder="21.00" aria-label="21.00" aria-describedby="addon-wrapping">
+                                    </div>            
+                                </div>
+                            </div>
+    
+                            <div class="searchbtn mb-5">
+                                <button type="button" class="btn btn-primary py-3 w-100">Cari Rental</button>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </section>
+
+        <!-- Highlight -->
+        <section id="highlight">
+            <div class="row mx-5">
+                <div class="col-6">
+                    <div class="row my-5 align-items-center">
+                        <div class="col-3 text-end">
+                            <img src="https://www.tiket.com/home-ms/assets/simple-profile.png" alt="" width="90">
+                        </div>
+                        <div class="col-9 pt-2 pb-0">
+                            <h3>Simple Profile</h3>
+                            <p>Pesan lebih cepat, isi data penumpang dengan sekali klik.</p>
+                        </div>
+                    </div>
+            
+                    <div class="row my-5 align-items-center">
+                        <div class="col-3 text-end">
+                            <img src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/original/home-desktop/2021/08/06/ff80aee2-00ae-4d33-af83-59dd73e3762d-1628237435194-527ed12e0af74bc39c095034fa1ea66a.png"
+                                alt="" width="90">
+                        </div>
+                        <div class="col-9 pt-2 pb-0">
+                            <h3>Simple Booking Process</h3>
+                            <p>Pemesanan tanpa ribet di mana pun dan kapan pun.</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-6">
+                    <div class="row my-5 align-items-center">
+                        <div class="col-3 text-end">
+                            <img src="https://www.tiket.com/home-ms/assets/simple-reschedule.png" alt=""
+                                width="90">
+                        </div>
+                        <div class="col-9 pt-2 pb-0">
+                            <h3>Simple Reschedule</h3>
+                            <p>Memudahkan kamu mengatur ulang penerbangan.</p>
+                        </div>
+                    </div>
+            
+                    <div class="row my-5 align-items-center">
+                        <div class="col-3 text-end">
+                            <img src="https://www.tiket.com/home-ms/assets/simple-refund.png" alt="" width="90">
+                        </div>
+                        <div class="col-9 pt-2 pb-0">
+                            <h3>Simple Refund</h3>
+                            <p>Refund tiket tanpa ribet dari aplikasi maupun website.</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>    
+        </section>
+
+        <!-- News -->
+        <section id="news">
+            <div class="card border-light my-4">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="frontend/images/destinasiwisata.jpg" alt="">
+                        </div>
+
+                        <div class="col-9 px-5 py-">
+                            <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak 5 Destinasi Wisata  Terbaik di Yogyakarta yang wajib kamu kunjungi saat kamu berwisata ke Kota Istimewa ini. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card border-light my-4">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="frontend/images/destinasiwisata.jpg" alt="">
+                        </div>
+
+                        <div class="col-9 px-5 py-">
+                            <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak 5 Destinasi Wisata  Terbaik di Yogyakarta yang wajib kamu kunjungi saat kamu berwisata ke Kota Istimewa ini. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card border-light my-4">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="frontend/images/destinasiwisata.jpg" alt="">
+                        </div>
+
+                        <div class="col-9 px-5 py-">
+                            <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak 5 Destinasi Wisata  Terbaik di Yogyakarta yang wajib kamu kunjungi saat kamu berwisata ke Kota Istimewa ini. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-4 align-self-center">
+                    <h2>Download RentYuks di</h2>
+                    <a href="http://">
+                        <img src="https://www.pedulilindungi.id/assets/play-store.svg" alt="" height="34px">
+                    </a>
+                    <a href="http://">
+                        <img src="https://www.pedulilindungi.id/assets/app-store.svg" alt="" height="34px">
+                    </a>
+
+                </div>
+    
+                <div class="col-2">
+                    <h2>About Us</h2>
+                    <a href="">Siapa kami ?</a> <br>
+                    <a href="">Blog</a> <br>
+                    <a href="">Karir</a> <br>
+                    <a href="">Perusahaan</a> <br>
+                    <a href="">Partner</a> <br>
+                    <a href="">Penghargaan</a>
+                </div>
+    
+                <div class="col-2">
+                    <h2>Products</h2>
+                    <a href="">Rental Mobil</a> <br>
+                    <a href="">Rental Motor</a> <br>
+                    <a href="">Rental Sepeda</a>
+                </div>
+    
+                <div class="col-2">
+                    <h2>Others</h2>
+                    <a href="">Pusat Bantuan</a> <br>
+                    <a href="">Syarat dan Ketentuan</a> <br>
+                    <a href="">Kebijakan Privasi</a> <br>
+                </div>
+    
+                <div class="col-2">
+                    <h2>Follow Us</h2>
+                    <a href="http://" style="line-height: 40px;"><img src="frontend/images/facebook_logo.png" alt="" width="24px">&nbsp; &nbsp; Facebook</a> <br>
+                    <a href="http://" style="line-height: 40px;"><img src="frontend/images/instagram_logo.png" alt="" width="24px">&nbsp; &nbsp; Instagram</a> <br>
+                    <a href="http://" style="line-height: 40px;"><img src="frontend/images/twitter_logo.png" alt="" width="24px">&nbsp; &nbsp; Twitter</a> <br>
+                    <a href="http://" style="line-height: 40px;"><img src="frontend/images/tiktok_logo.png" alt="" width="24px">&nbsp; &nbsp; Tiktok</a>
+                </div>   
+            </div>
+    
+        </div>
+
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
