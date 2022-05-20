@@ -1,0 +1,150 @@
+/* detailpage.html */
+nav{
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    left: 0px;
+    top: 0px;    
+    background: #4D96FF;
+}
+
+nav .logo h1{
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+#search-info .card .info h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+#search-info .card .info p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #737373;
+
+}
+
+#search-info .card .edit h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#search-info .card{
+    box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;    
+}
+
+#body-search .card{
+    box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;    
+}
+
+#body-search h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#body-search .tipemobil .card h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 36px;
+}
+
+#body-search .tipemobil .card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #737373;
+}
+
+#body-search .detailrental .card h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+#body-search .detailrental .card h5{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#body-search .detailrental .card a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #686868;
+}
+
+#body-search .detailrental .card button{
+    width: 213px;
+    height : 36px;
+    border-radius: 10px;
+    background: #4D96FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 10px;
+    color: #FFFFFF;
+    float: right;
+}
+
+#body-search .detailrental .card p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 5px;
+    color: #000000;
+}
+
+#body-search .detailrental .card ul{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+#body-search .pesanbtn button{
+    width: 400px;
+    height : 50px;
+    border-radius: 10px;
+    background: #4D96FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 15x;
+    
+}
