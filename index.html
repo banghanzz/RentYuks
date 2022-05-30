@@ -15,23 +15,23 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-dark navbar-expand-lg">
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
         <div class="container">
             <div class="content w-100 d-flex align-items-center justify-content-between">
-                <div class="logo">
-                    <h1 class="navbar-brand mt-2" href="index.html">RentYuks</h1>
+                <div class="logo d-flex align-self-center">
+                    <img src="frontend/images/rentyuks_logo.png" alt="logo" href="index.html">
                 </div>
 
                 <div class="nav-items">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-bell" viewBox="0 0 16 16">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-bell me-lg-4 me-3" viewBox="0 0 16 16">
                         <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
                     </svg>
-                    &nbsp; &nbsp; &nbsp;
-                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <!-- &nbsp; &nbsp; &nbsp; -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white" class="bi bi-person-circle me-lg-4 me-3" viewBox="0 0 16 16">
                         <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
                         <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
                     </svg>
-                    &nbsp; &nbsp; &nbsp;
+                    <!-- &nbsp; &nbsp; &nbsp; -->
                     <button type="button" class="btn btn-light" onclick="location.href='login.html';">Login</button>
                 </div>        
             </div>
@@ -40,7 +40,7 @@
 
     <div class="container">
         <!-- Carousel -->
-        <div class="carousel my-4">
+        <div class="carousel  my-4">
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                   <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -75,27 +75,27 @@
                 <div class="card-body p-0">
                     <div class="menu">
                         <div class="row">
-                            <div class="col-lg-6 col-md-4 col-sm-4">
+                            <div class="col-lg-6 col-md-6 col-4">
                                 <div class="welcome py-lg-4 px-lg-5">
-                                    <h1>Hai, user</h1>
+                                    <h1>Hai, Ahmad</h1>
                                     <h1>Mau rental apa nich ?</h1>    
                                 </div>
                             </div>
     
-                            <div class="col-lg-6 col-md-4 col-sm-4">
-                                <div class="row d-flex justify-content-end align-items-end g-3">
-                                    <div class="col-3 text-center">
+                            <div class="col-lg-6 col-md-6 col-8 pe-lg-0 pe-4">
+                                <div class="row justify-content-end align-items-end">
+                                    <div class="col-lg-3 col-3 text-center">
                                         <img src="frontend/images/car_illustration.png" alt="" width="80px">
                                         <h3>Mobil</h3>
                                     </div>
     
-                                    <div class="col-3 text-center">
-                                        <img src="frontend/images/motor_illustration.png" alt="" width="78px">
+                                    <div class="col-lg-3 col-3 text-center ">
+                                        <img src="frontend/images/motor_illustration.png" alt="" width="70px">
                                         <h3>Motor</h3>
                                     </div>
     
-                                    <div class="col-3 text-center me-5">
-                                        <img src="frontend/images/bicycle_illustration.png" alt="" width="76px">
+                                    <div class="col-lg-3 col-3 text-center me-4">
+                                        <img src="frontend/images/bicycle_illustration.png" alt="" width="65px">
                                         <h3>Sepeda</h3>
                                     </div>
                                 </div>
@@ -190,9 +190,9 @@
 
         <!-- Highlight -->
         <section id="highlight">
-            <div class="row mx-5">
-                <div class="col-6">
-                    <div class="row my-5 align-items-center">
+            <div class="row mx-5 mt-sm-5">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row my-lg-5 mb-sm-3 align-items-center">
                         <div class="col-3 text-end">
                             <img src="https://www.tiket.com/home-ms/assets/simple-profile.png" alt="" width="90">
                         </div>
@@ -214,8 +214,8 @@
                     </div>
                 </div>
     
-                <div class="col-6">
-                    <div class="row my-5 align-items-center">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="row my-lg-5 align-items-center">
                         <div class="col-3 text-end">
                             <img src="https://www.tiket.com/home-ms/assets/simple-reschedule.png" alt=""
                                 width="90">
@@ -248,9 +248,9 @@
                             <img src="frontend/images/destinasiwisata.jpg" alt="">
                         </div>
 
-                        <div class="col-9 px-5 py-">
+                        <div class="col-9 px-5">
                             <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
-                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. </p>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak ulasan kita mengenai 5 destinasi wisata menarik di Yogyakarta.</p>
                         </div>
                     </div>
                 </div>
@@ -265,7 +265,7 @@
 
                         <div class="col-9 px-5 py-">
                             <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
-                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. </p>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak ulasan kita mengenai 5 destinasi wisata menarik di Yogyakarta.</p>
                         </div>
                     </div>
                 </div>
@@ -280,7 +280,7 @@
 
                         <div class="col-9 px-5 py-">
                             <h2 class="mt-4 mb-3 px-2">Ini Dia 5 Destinasi Wisata Terbaik di Yogyakarta yang Wajib Kamu Kunjungi !</h2>
-                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. </p>
+                            <p class="px-2">Bagi kamu yang suka bepergian ke Yogyakarta, pastinya kamu sudah banyak mengunjungi berbagai tempat wisata bukan ? Namun, apa kamu sudah pernah mengunjungi 5 tempat berikut ini ? Tempat-tempat ini jarang dikunjungi loh. Yuk simak ulasan kita mengenai 5 destinasi wisata menarik di Yogyakarta.</p>
                         </div>
                     </div>
                 </div>
@@ -292,7 +292,7 @@
     <footer>
         <div class="container">
             <div class="row py-5">
-                <div class="col-4 align-self-center">
+                <div class="download col-lg-4 col-md-12 mb-5 align-self-center">
                     <h2>Download RentYuks di</h2>
                     <a href="http://">
                         <img src="https://www.pedulilindungi.id/assets/play-store.svg" alt="" height="34px">
@@ -303,7 +303,7 @@
 
                 </div>
     
-                <div class="col-2">
+                <div class="about col-lg-2 col-md-4 mb-4">
                     <h2>About Us</h2>
                     <a href="">Siapa kami ?</a> <br>
                     <a href="">Blog</a> <br>
@@ -313,21 +313,21 @@
                     <a href="">Penghargaan</a>
                 </div>
     
-                <div class="col-2">
+                <div class="products col-lg-2 col-md-4 col-sm-12 d-none d-md-block mb-4">
                     <h2>Products</h2>
                     <a href="">Rental Mobil</a> <br>
                     <a href="">Rental Motor</a> <br>
                     <a href="">Rental Sepeda</a>
                 </div>
     
-                <div class="col-2">
+                <div class="others col-lg-2 col-md-4 mb-4">
                     <h2>Others</h2>
                     <a href="">Pusat Bantuan</a> <br>
                     <a href="">Syarat dan Ketentuan</a> <br>
                     <a href="">Kebijakan Privasi</a> <br>
                 </div>
     
-                <div class="col-2">
+                <div class="social col-lg-2 col-md-12 mb-4">
                     <h2>Follow Us</h2>
                     <a href="http://" style="line-height: 40px;"><img src="frontend/images/facebook_logo.png" alt="" width="24px">&nbsp; &nbsp; Facebook</a> <br>
                     <a href="http://" style="line-height: 40px;"><img src="frontend/images/instagram_logo.png" alt="" width="24px">&nbsp; &nbsp; Instagram</a> <br>
