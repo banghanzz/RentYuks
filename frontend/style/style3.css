@@ -8,12 +8,8 @@ nav{
     background: #4D96FF;
 }
 
-nav .logo h1{
-    color: #FFFFFF;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
+nav .content .logo img{
+    width: 220px;
 }
 
 #search-info .card .info h5{
@@ -40,6 +36,11 @@ nav .logo h1{
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+}
+
+#search-info .card .edit h5:hover{
+    color: #4D96FF;
+    transition: all ease o.3s;
 }
 
 #search-info .card{
