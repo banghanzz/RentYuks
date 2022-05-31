@@ -35,16 +35,35 @@ nav .content .logo img{
     font-weight: 600;
     font-size: 18px;
     line-height: 30px;
+    cursor:pointer ;
+
 }
+
+#search-info .card .edit h5:hover{
+    color: #4D96FF;
+    transition: all ease o.3s;
+}
+
 
 #search-info .card{
     box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;    
+    border-radius: 10px; 
+    border-color: #FFFFFF;   
 }
 
 #body-search .card{
     box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;    
+    border-radius: 10px;  
+    border-color: #FFFFFF;   
+  
+}
+
+#body-search .tipemobil .card:hover{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    border-radius: 10px; 
+    border-width: 2px; 
+    border-color: #dddddd; 
+
 }
 
 #body-search h2{
@@ -111,5 +130,43 @@ nav .content .logo img{
     font-size: 12px;
     line-height: 15px;
     color: #000000;
+    
+}
+
+@media screen and (max-width: 600px){
+    #body-search .tipemobil .card h3{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+    #body-search .tipemobil .card p{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 9px;
+        line-height: 15px;
+        color: #737373;
+    }
+    
+    #body-search .tipemobil .card h5{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    #body-search .tipemobil .card a{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 8px;
+        line-height: 15px;
+        color: #686868;
+    }
+    
     
 }
