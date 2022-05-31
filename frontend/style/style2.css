@@ -1,4 +1,8 @@
 /* detailpage.html */
+*{
+    font-family: Poppins;
+}
+
 nav{
     position: absolute;
     width: 100%;

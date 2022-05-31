@@ -1,4 +1,8 @@
 /* orderpage.html */
+*{
+    font-family: Poppins;
+}
+
 nav{
     position: absolute;
     width: 100%;
@@ -10,6 +14,7 @@ nav{
 
 nav .content .logo img{
     width: 220px;
+    cursor:pointer;
 }
 
 #search-info .card .info h5{
@@ -56,7 +61,7 @@ nav .content .logo img{
 #body-search h2{
     font-family: 'Poppins';
     font-style: normal;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 24px;
     line-height: 36px;
 }

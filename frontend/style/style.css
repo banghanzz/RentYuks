@@ -14,12 +14,14 @@ nav{
     left: 0px;
     top: 0px;    
     background: #4D96FF;
+    font-weight: 600px;
 }
 
 nav .content .logo img{
     width: 220px;
     cursor:pointer;
 }
+
 
 .carousel {
     height: 350px;
