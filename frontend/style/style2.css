@@ -8,12 +8,8 @@ nav{
     background: #4D96FF;
 }
 
-nav .logo h1{
-    color: #FFFFFF;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
+nav .content .logo img{
+    width: 220px;
 }
 
 #search-info .card .info h5{
@@ -139,6 +135,7 @@ nav .logo h1{
     height : 50px;
     border-radius: 10px;
     background: #4D96FF;
+    border-color: #4D96FF ;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
