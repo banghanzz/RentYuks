@@ -159,7 +159,6 @@ nav .content .logo img{
 }
 
 #body-search .pesanbtn button{
-    /* width: 740px; */
     height : 50px;
     border-radius: 10px;
     background: #4D96FF;
@@ -169,8 +168,14 @@ nav .content .logo img{
     font-weight: 550;
     font-size: 16px;
     color: #FFFFFF;
-    box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
-    
+    box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25); 
+    transition: transform;
+    transition-duration: 0.2s;  
+}
+
+#body-search .pesanbtn button:hover{
+    transform: scale(1.03);
+
 }
 
 #body-search button {
@@ -212,3 +217,20 @@ nav .content .logo img{
     border-radius: 20px 20px 0px 0px;
 
 }
+
+#body-search .tipemobil .dropdown-panel .btn{
+    box-shadow: 0px 2px 10px -3px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#body-search .tipemobil .dropdown-panel .btn:hover{
+    border-radius: 10px !important;
+    border: 2px solid #4D96FF !important;
+
+}   
+
+#body-search .tipemobil .dropdown-panel .btn:focus{
+    border: 2px solid #4D96FF !important;
+    color: #4D96FF !important;
+}
+

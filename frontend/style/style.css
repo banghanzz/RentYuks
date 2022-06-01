@@ -22,6 +22,9 @@ nav .content .logo img{
     cursor:pointer;
 }
 
+nav .btn:hover{
+    border: 1px solid darkblue;
+}
 
 .carousel {
     height: 350px;
