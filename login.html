@@ -16,15 +16,20 @@
 <body>
     <!-- RentYuks Title-->
     <section id="titlebody">
-        <div class="container text-center my-5">
+        <div class="d-none d-lg-block d-md-none d-sm-none"> 
+          <div class="container text-center my-5">
             <h1>RentYuks</h1>
+          </div>
         </div>
-    </section>
+      </section>
 
     <!-- Login Body -->
     <section id="loginbody">
 
         <div class="container">
+            <div class="d-block d-lg-none d-md-none d-sm-block">  
+                <h1 class="judul mb-4 my-4" style="text-align: center;">Daftar</h1>
+              </div>
             <div class="row px-lg-5">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="d-none d-sm-none d-md-none d-lg-block">
@@ -74,10 +79,12 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12 px-4">
+                <div class="col-lg-6 col-md-12 col-sm-12 px-4 ">
                     <div class="card border-light">
-                        <div class="card-body px-lg-5 py-lg-5 px-sm-5">
-                            <h1>Masuk</h1>
+                        <div class="card-body px-lg-5 py-lg-5 px-sm-5 my-4">
+                            <div class="d-none d-lg-block d-md-none d-sm-none"> 
+                                <h1>Masuk</h1>
+                              </div>
                             <div class="form-floating mt-2 mb-4">
                                 <input type="email" class="form-control border-light" id="floatingInput"
                                     placeholder="name@example.com">
@@ -90,8 +97,11 @@
                                 <label for="floatingPassword">Password</label>
                             </div>
 
-                            <div class="loginbtn mb-5">
-                                <button type="button" class="btn btn-primary py-3 w-100">Masuk</button>
+                            <div class="divider my-4">
+                                <div class="loginbtn mb-4">
+                                    <button type="button" class="btn btn-primary py-3 w-100">Masuk</button>
+                                </div>
+                            <hr class="solid">
                             </div>
 
                             <div class="loginwith mb-4">

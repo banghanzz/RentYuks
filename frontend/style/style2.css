@@ -1,4 +1,8 @@
 /* detailpage.html */
+*{
+    font-family: Poppins;
+}
+
 nav{
     position: absolute;
     width: 100%;
@@ -10,7 +14,10 @@ nav{
 
 nav .content .logo img{
     width: 220px;
+<<<<<<< HEAD
     cursor: pointer;
+=======
+>>>>>>> 411c75b556da22e411bb8d61a9384200efd2418f
 }
 
 #search-info .card .info h5{
@@ -146,6 +153,7 @@ nav .content .logo img{
     height : 50px;
     border-radius: 10px;
     background: #4D96FF;
+    border-color: #4D96FF ;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
