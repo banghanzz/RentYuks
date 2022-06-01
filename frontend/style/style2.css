@@ -8,12 +8,9 @@ nav{
     background: #4D96FF;
 }
 
-nav .logo h1{
-    color: #FFFFFF;
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 28px;
+nav .content .logo img{
+    width: 220px;
+    cursor: pointer;
 }
 
 #search-info .card .info h5{
@@ -132,6 +129,16 @@ nav .logo h1{
     font-size: 14px;
     line-height: 20px;
     color: #000000;
+}
+
+#body-search .detailrental .card ul{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+
 }
 
 #body-search .pesanbtn button{
