@@ -57,7 +57,7 @@ nav .btn:hover{
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
-    line-height: 36px;
+    line-height: 20px !important;
     display: flex;
     align-items: center;
     color: #383838;
