@@ -123,6 +123,10 @@ nav .nav-items .item:hover{
 
 }
 
+#body-search .tipemobil .card{
+    cursor: pointer;
+}
+
 #body-search .tipemobil .card h3{
     font-family: 'Poppins';
     font-style: normal;
