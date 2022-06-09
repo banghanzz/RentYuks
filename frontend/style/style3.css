@@ -17,6 +17,21 @@ nav .content .logo img{
     cursor:pointer;
 }
 
+nav .nav-items{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-items .item{
+    transition: transform;
+    transition-duration: 0.2s;  
+}
+
+nav .nav-items .item:hover{
+    transform: scale(1.2);
+
+}
+
 #search-info .card .info h5{
     font-family: 'Poppins';
     font-style: normal;

@@ -19,11 +19,33 @@ nav{
 
 nav .content .logo img{
     width: 220px;
-    cursor:pointer;
+    cursor: pointer;
+}
+
+nav .nav-items{
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-items .item{
+    transition: transform;
+    transition-duration: 0.2s;  
+}
+
+nav .nav-items .item:hover{
+    transform: scale(1.2);
+
+}
+
+nav .btn{
+    transition: transform;
+    transition-duration: 0.2s;  
+
 }
 
 nav .btn:hover{
-    border: 1px solid darkblue;
+    transform: scale(1.1);
+
 }
 
 .carousel {
@@ -88,6 +110,13 @@ nav .btn:hover{
 #search-box .card .input-search .searchbtn .btn {
     background: #4D96FF;
     border-radius: 10px;
+    transition: transform;
+    transition-duration: 0.2s;  
+}
+
+#search-box .card .input-search .searchbtn .btn:hover {
+    transform: scale(1.03);
+
 }
 
 #search-box .card .input-search button{
@@ -152,6 +181,14 @@ nav .btn:hover{
 #news .card{
     box-shadow: 0px 2px 20px -4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
+    transition: transform;
+    transition-duration: 0.2s; 
+    cursor: pointer; 
+}
+
+#news .card:hover{
+    transform: scale(1.02);
+
 }
 
 footer{
